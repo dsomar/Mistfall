@@ -1,0 +1,10 @@
+build/
+dist/
+dist-test/
+dist.old/
+recovery/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+Touch/
+preview/

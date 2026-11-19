@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD812D6DA33D3A7DF9C2BF7 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B7F0D047C671394EAFC86 /* Flow.swift */; };
+		153748A1448B4917899E2E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86674192CD4C3B866DBE7C /* Assets.xcassets */; };
+		219BBC325AE6CEAB5B8F9DD7 /* MistfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63CAC4A8654B51B8C3F4C03 /* MistfallView.swift */; };
+		27092109CE95D851ECFFDACE /* GPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C1EACB0D4FCE4B082DD29 /* GPU.swift */; };
+		29064BF8F74501064109920C /* MistfallSaver.bundle in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = 9806FC5A6536F38994365CB7 /* MistfallSaver.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A26BE6300A4A2A01B46F4CA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E751950F3BC4AFF7294FC /* Settings.swift */; };
+		2E0D6A317068FE03F1D31B30 /* Prism.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C20DAB83209BF799F7A018 /* Prism.swift */; };
+		4DA3A303B00E0F01E0C103F0 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B7F0D047C671394EAFC86 /* Flow.swift */; };
+		589E34FF221E9A874C6468DF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E751950F3BC4AFF7294FC /* Settings.swift */; };
+		5912B985F82F548EB78FBD22 /* IdleStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2889AFB8C0E64AF7A9B7B9 /* IdleStart.swift */; };
+		5F7CA12C5D512412A01DCFF4 /* Abstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017073456E1E0689BC3A456 /* Abstract.swift */; };
+		6190E14416E39B26ACD2C3F3 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78798D7DDB70F201CBE7F4BA /* Engine.swift */; };
+		63DB0AE749B40666122092D7 /* GPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C1EACB0D4FCE4B082DD29 /* GPU.swift */; };
+		65D3EE672473CB01EC11F361 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78798D7DDB70F201CBE7F4BA /* Engine.swift */; };
+		832B813711B1B98382216DF4 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B7F0D047C671394EAFC86 /* Flow.swift */; };
+		8BF6B9DBDEB3940E8D6F6969 /* Abstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017073456E1E0689BC3A456 /* Abstract.swift */; };
+		9253D4560433A46BCD59BB75 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4267565E876C08F169943BC /* main.swift */; };
+		935A4B2A76DC01E1BF4D4F29 /* Cipherfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD246B320465C31BB44E553 /* Cipherfall.swift */; };
+		A8C604178E010399A507D600 /* Cipherfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD246B320465C31BB44E553 /* Cipherfall.swift */; };
+		A9E1543BAC5F07D1DCEEB7F4 /* Prism.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C20DAB83209BF799F7A018 /* Prism.swift */; };
+		AEAB0D82AB8C16A8BB9B2A20 /* Cipherfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD246B320465C31BB44E553 /* Cipherfall.swift */; };
+		B5AFE1C2829F79F4021F37E5 /* GPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C1EACB0D4FCE4B082DD29 /* GPU.swift */; };
+		B9527B2C43E92965E261EA73 /* IdleStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2889AFB8C0E64AF7A9B7B9 /* IdleStart.swift */; };
+		BC233D1F553B1AD4FF6E3735 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78798D7DDB70F201CBE7F4BA /* Engine.swift */; };
+		C610DF7A7FA586932B303D5B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4267565E876C08F169943BC /* main.swift */; };
+		D4F681F7B1BCD093ED5FEC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86674192CD4C3B866DBE7C /* Assets.xcassets */; };
+		ECC44E258C2C5C69E84BE558 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E751950F3BC4AFF7294FC /* Settings.swift */; };
+		FA3F4681AEA9081B49BB64A7 /* Prism.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C20DAB83209BF799F7A018 /* Prism.swift */; };
+		FD193244810CD3EDA14B71DD /* Abstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017073456E1E0689BC3A456 /* Abstract.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B03C369CDA930B9C356050CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BBF83BCE391E9ABE6F65F9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC2FED081C0944716FEBD10;
+			remoteInfo = MistfallSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B95A4702D293C3458C17CCA /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				29064BF8F74501064109920C /* MistfallSaver.bundle in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33FC56466433C8DA01C37449 /* MistfallStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MistfallStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9C1EACB0D4FCE4B082DD29 /* GPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPU.swift; sourceTree = "<group>"; };
+		78798D7DDB70F201CBE7F4BA /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		7D2889AFB8C0E64AF7A9B7B9 /* IdleStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleStart.swift; sourceTree = "<group>"; };
+		9806FC5A6536F38994365CB7 /* MistfallSaver.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistfallSaver.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63CAC4A8654B51B8C3F4C03 /* MistfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistfallView.swift; sourceTree = "<group>"; };
+		A93E751950F3BC4AFF7294FC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		ABD246B320465C31BB44E553 /* Cipherfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipherfall.swift; sourceTree = "<group>"; };
+		BF86674192CD4C3B866DBE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C017073456E1E0689BC3A456 /* Abstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract.swift; sourceTree = "<group>"; };
+		C07B7F0D047C671394EAFC86 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		E9C20DAB83209BF799F7A018 /* Prism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prism.swift; sourceTree = "<group>"; };
+		EC09712E91FC8AF41505E38C /* Mistfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4267565E876C08F169943BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		036C7B9E9D20F20B279CF9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC09712E91FC8AF41505E38C /* Mistfall.app */,
+				9806FC5A6536F38994365CB7 /* MistfallSaver.bundle */,
+				33FC56466433C8DA01C37449 /* MistfallStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257CFFD847028D578078D575 = {
+			isa = PBXGroup;
+			children = (
+				C2620F4102D2302EABDB8B4B /* Mistfall */,
+				87084650C54DA85832879010 /* Saver */,
+				036C7B9E9D20F20B279CF9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87084650C54DA85832879010 /* Saver */ = {
+			isa = PBXGroup;
+			children = (
+				A63CAC4A8654B51B8C3F4C03 /* MistfallView.swift */,
+			);
+			path = Saver;
+			sourceTree = "<group>";
+		};
+		C2620F4102D2302EABDB8B4B /* Mistfall */ = {
+			isa = PBXGroup;
+			children = (
+				C017073456E1E0689BC3A456 /* Abstract.swift */,
+				BF86674192CD4C3B866DBE7C /* Assets.xcassets */,
+				ABD246B320465C31BB44E553 /* Cipherfall.swift */,
+				78798D7DDB70F201CBE7F4BA /* Engine.swift */,
+				C07B7F0D047C671394EAFC86 /* Flow.swift */,
+				4D9C1EACB0D4FCE4B082DD29 /* GPU.swift */,
+				7D2889AFB8C0E64AF7A9B7B9 /* IdleStart.swift */,
+				F4267565E876C08F169943BC /* main.swift */,
+				E9C20DAB83209BF799F7A018 /* Prism.swift */,
+				A93E751950F3BC4AFF7294FC /* Settings.swift */,
+			);
+			path = Mistfall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3325C535F185FF9A9373D750 /* MistfallStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFD109AFAE347FB660B4478 /* Build configuration list for PBXNativeTarget "MistfallStore" */;
+			buildPhases = (
+				7B519240EB428DA89443D43A /* Sources */,
+				C03A0BB1D4BB362D6254FA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MistfallStore;
+			packageProductDependencies = (
+			);
+			productName = MistfallStore;
+			productReference = 33FC56466433C8DA01C37449 /* MistfallStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C2E3F9A46ABAA35C51682F /* Mistfall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D7F1BD06E3542CB0A246C5 /* Build configuration list for PBXNativeTarget "Mistfall" */;
+			buildPhases = (
+				534F6F429D77E591184FD988 /* Sources */,
+				C5B3FC747E3F02D261453D7E /* Resources */,
+				1B95A4702D293C3458C17CCA /* Embed Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8564ED5354CBBF2D644B101 /* PBXTargetDependency */,
+			);
+			name = Mistfall;
+			packageProductDependencies = (
+			);
+			productName = Mistfall;
+			productReference = EC09712E91FC8AF41505E38C /* Mistfall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC2FED081C0944716FEBD10 /* MistfallSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6F224E39422EAF09E81F8F /* Build configuration list for PBXNativeTarget "MistfallSaver" */;
+			buildPhases = (
+				F4ECE53DEF048E5FA30A8D82 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MistfallSaver;
+			packageProductDependencies = (
+			);
+			productName = MistfallSaver;
+			productReference = 9806FC5A6536F38994365CB7 /* MistfallSaver.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BBF83BCE391E9ABE6F65F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3325C535F185FF9A9373D750 = {
+						ProvisioningStyle = Manual;
+					};
+					64C2E3F9A46ABAA35C51682F = {
+						ProvisioningStyle = Manual;
+					};
+					7CC2FED081C0944716FEBD10 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3D717939B5E2492B4F9E2978 /* Build configuration list for PBXProject "Mistfall" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 257CFFD847028D578078D575;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 036C7B9E9D20F20B279CF9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C2E3F9A46ABAA35C51682F /* Mistfall */,
+				7CC2FED081C0944716FEBD10 /* MistfallSaver */,
+				3325C535F185FF9A9373D750 /* MistfallStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03A0BB1D4BB362D6254FA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153748A1448B4917899E2E94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B3FC747E3F02D261453D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F681F7B1BCD093ED5FEC58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534F6F429D77E591184FD988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7CA12C5D512412A01DCFF4 /* Abstract.swift in Sources */,
+				A8C604178E010399A507D600 /* Cipherfall.swift in Sources */,
+				BC233D1F553B1AD4FF6E3735 /* Engine.swift in Sources */,
+				4DA3A303B00E0F01E0C103F0 /* Flow.swift in Sources */,
+				63DB0AE749B40666122092D7 /* GPU.swift in Sources */,
+				B9527B2C43E92965E261EA73 /* IdleStart.swift in Sources */,
+				FA3F4681AEA9081B49BB64A7 /* Prism.swift in Sources */,
+				ECC44E258C2C5C69E84BE558 /* Settings.swift in Sources */,
+				9253D4560433A46BCD59BB75 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B519240EB428DA89443D43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF6B9DBDEB3940E8D6F6969 /* Abstract.swift in Sources */,
+				AEAB0D82AB8C16A8BB9B2A20 /* Cipherfall.swift in Sources */,
+				6190E14416E39B26ACD2C3F3 /* Engine.swift in Sources */,
+				0DD812D6DA33D3A7DF9C2BF7 /* Flow.swift in Sources */,
+				B5AFE1C2829F79F4021F37E5 /* GPU.swift in Sources */,
+				5912B985F82F548EB78FBD22 /* IdleStart.swift in Sources */,
+				A9E1543BAC5F07D1DCEEB7F4 /* Prism.swift in Sources */,
+				589E34FF221E9A874C6468DF /* Settings.swift in Sources */,
+				C610DF7A7FA586932B303D5B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ECE53DEF048E5FA30A8D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD193244810CD3EDA14B71DD /* Abstract.swift in Sources */,
+				935A4B2A76DC01E1BF4D4F29 /* Cipherfall.swift in Sources */,
+				65D3EE672473CB01EC11F361 /* Engine.swift in Sources */,
+				832B813711B1B98382216DF4 /* Flow.swift in Sources */,
+				27092109CE95D851ECFFDACE /* GPU.swift in Sources */,
+				219BBC325AE6CEAB5B8F9DD7 /* MistfallView.swift in Sources */,
+				2E0D6A317068FE03F1D31B30 /* Prism.swift in Sources */,
+				2A26BE6300A4A2A01B46F4CA /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8564ED5354CBBF2D644B101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC2FED081C0944716FEBD10 /* MistfallSaver */;
+			targetProxy = B03C369CDA930B9C356050CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0222F387FFCD9DEA0A22DCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Mistfall by Secret Weapon Design. SecretWeaponLabs.com";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secretweaponlabs.Mistfall;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A7695C6DCD3FC91FC2BF157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		27691F5E919562D675C4A3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2AEB59E969FF9C41B2AAA92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Store/Mistfall.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Mistfall by Secret Weapon Design. SecretWeaponLabs.com";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secretweaponlabs.Mistfall;
+				PRODUCT_MODULE_NAME = Mistfall;
+				PRODUCT_NAME = Mistfall;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6DFF0E22FB2D9BDEFC819310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Mistfall by Secret Weapon Design. SecretWeaponLabs.com";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secretweaponlabs.Mistfall;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF9784E8DA9F3FF7E32B2937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Mistfall by Secret Weapon Design. SecretWeaponLabs.com";
+				INFOPLIST_KEY_NSPrincipalClass = MistfallView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secretweaponlabs.Mistfall.saver;
+				PRODUCT_MODULE_NAME = MistfallSaver;
+				PRODUCT_NAME = Mistfall;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		BB159BA8191CB68C3CE57B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Store/Mistfall.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Mistfall by Secret Weapon Design. SecretWeaponLabs.com";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secretweaponlabs.Mistfall;
+				PRODUCT_MODULE_NAME = Mistfall;
+				PRODUCT_NAME = Mistfall;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C252E6C906B7B9361FA1EE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Mistfall by Secret Weapon Design. SecretWeaponLabs.com";
+				INFOPLIST_KEY_NSPrincipalClass = MistfallView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.secretweaponlabs.Mistfall.saver;
+				PRODUCT_MODULE_NAME = MistfallSaver;
+				PRODUCT_NAME = Mistfall;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D7F1BD06E3542CB0A246C5 /* Build configuration list for PBXNativeTarget "Mistfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0222F387FFCD9DEA0A22DCB5 /* Debug */,
+				6DFF0E22FB2D9BDEFC819310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D717939B5E2492B4F9E2978 /* Build configuration list for PBXProject "Mistfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27691F5E919562D675C4A3A4 /* Debug */,
+				1A7695C6DCD3FC91FC2BF157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC6F224E39422EAF09E81F8F /* Build configuration list for PBXNativeTarget "MistfallSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9784E8DA9F3FF7E32B2937 /* Debug */,
+				C252E6C906B7B9361FA1EE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCFD109AFAE347FB660B4478 /* Build configuration list for PBXNativeTarget "MistfallStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEB59E969FF9C41B2AAA92E /* Debug */,
+				BB159BA8191CB68C3CE57B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BBF83BCE391E9ABE6F65F9C /* Project object */;
+}
