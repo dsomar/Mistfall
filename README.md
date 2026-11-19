@@ -2,6 +2,13 @@
 
 Mistfall is a macOS screen saver and standalone app that draws slowly changing patterns of light out of tens of thousands of glowing dots.
 
+## Download
+
+Signed, notarized builds are on the [Releases page](https://github.com/dsomar/Mistfall/releases/latest):
+
+- `Mistfall-App.zip`: the standalone app. It can also install the screen saver from its menu.
+- `Mistfall-Screensaver.zip`: the screen saver on its own. Unzip it and double-click `Mistfall.saver`.
+
 ## What is here
 
 - `Mistfall/`: the engine and the standalone Mac app. `Engine.swift` runs the patterns; `Abstract`, `Cipherfall`, `Flow` and `Prism` hold individual pattern families; `GPU.swift` draws with Metal.
