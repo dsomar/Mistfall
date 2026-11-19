@@ -1,0 +1,88 @@
+name: Mistfall
+options:
+  bundleIdPrefix: com.secretweaponlabs
+  deploymentTarget:
+    macOS: "13.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    ENABLE_HARDENED_RUNTIME: YES
+targets:
+  MistfallSaver:
+    type: bundle
+    platform: macOS
+    sources:
+      - path: Mistfall/Engine.swift
+      - path: Mistfall/Abstract.swift
+      - path: Mistfall/Cipherfall.swift
+      - path: Mistfall/Flow.swift
+      - path: Mistfall/Prism.swift
+      - path: Mistfall/Settings.swift
+      - path: Mistfall/GPU.swift
+      - path: Saver/MistfallView.swift
+    settings:
+      base:
+        PRODUCT_NAME: Mistfall
+        PRODUCT_MODULE_NAME: MistfallSaver
+        WRAPPER_EXTENSION: saver
+        PRODUCT_BUNDLE_IDENTIFIER: com.secretweaponlabs.Mistfall.saver
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Mistfall by Secret Weapon Design. SecretWeaponLabs.com"
+        INFOPLIST_KEY_NSPrincipalClass: MistfallView
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INSTALL_PATH: "$(HOME)/Library/Screen Savers"
+  Mistfall:
+    type: application
+    platform: macOS
+    sources:
+      - path: Mistfall
+    dependencies:
+      - target: MistfallSaver
+        embed: true
+        copy:
+          destination: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.secretweaponlabs.Mistfall
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Mistfall by Secret Weapon Design. SecretWeaponLabs.com"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.entertainment
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+  # The Mac App Store version: the same app, sandboxed, without the bundled screen saver
+  # (an App Store app cannot add one to System Settings; it uses Start When Idle instead).
+  MistfallStore:
+    type: application
+    platform: macOS
+    sources:
+      - path: Mistfall
+    entitlements:
+      path: Store/Mistfall.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+    settings:
+      base:
+        PRODUCT_NAME: Mistfall
+        PRODUCT_MODULE_NAME: Mistfall
+        PRODUCT_BUNDLE_IDENTIFIER: com.secretweaponlabs.Mistfall
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Mistfall by Secret Weapon Design. SecretWeaponLabs.com"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.entertainment
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+schemes:
+  Mistfall:
+    build:
+      targets:
+        Mistfall: all
+        MistfallSaver: all
+  MistfallStore:
+    build:
+      targets:
+        MistfallStore: all
