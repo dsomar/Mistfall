@@ -8,7 +8,8 @@
 
 # Mistfall
 
-Mistfall is a macOS screen saver and standalone app that draws slowly changing patterns of light out of tens of thousands of glowing dots.
+Mistfall is a macOS screen saver and standalone app that draws slowly changing patterns of light out of tens of thousands of glowing dots.  It's completely free, open-source and is innocuous, but if you don't believe me, download the code and build it yourself with Claude or Codex, and Xcode.  It is made in honor of an old screensaver Snoqualmie by Syntrillium, which fascinated me enough with the beauty of its renders that I wanted to understand imaging and computers more and more, which led me down the rabbit hole of design.
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/20533f64-3a51-4768-8d24-f8d5a69b37f0" />
 
 ## Download
 
