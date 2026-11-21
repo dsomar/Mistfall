@@ -1,3 +1,5 @@
+<img width="800" height="557" alt="CleanShot 2026-11-20 at 8 30 12 PM" src="https://github.com/user-attachments/assets/92aa8e4a-db97-498c-96e6-4e4575529a0f" />
+
 # Mistfall
 
 Mistfall is a macOS screen saver and standalone app that draws slowly changing patterns of light out of tens of thousands of glowing dots.
