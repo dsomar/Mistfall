@@ -42,4 +42,4 @@ The `Mistfall` scheme builds the app, which carries the screen saver inside it. 
 
 Copyright 2026 Secret Weapon Design (https://secretweaponlabs.com).
 
-Mistfall is source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). You may use, change and share it for noncommercial purposes. Commercial use, including commercial works based on it, needs a separate licence. Contact Secret Weapon Design through https://secretweaponlabs.com.
+Mistfall is open source under the [GNU General Public License v3.0](LICENSE). You may use, change and share it for any purpose, including commercially. If you distribute it or a version based on it, you must do so under the same licence and make the source available.
