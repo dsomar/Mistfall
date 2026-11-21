@@ -8,17 +8,17 @@
 
 # Mistfall
 
-Mistfall is a macOS screen saver and standalone app that draws slowly changing patterns of light out of tens of thousands of glowing dots.  It's completely free, open-source and is innocuous, but if you don't believe me, download the code and build it yourself with Claude or Codex, and Xcode.  It is made in honor of an old screensaver Snoqualmie by Syntrillium, which fascinated me enough with the beauty of its renders that I wanted to understand imaging and computers more and more, which led me down the rabbit hole of design.
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/20533f64-3a51-4768-8d24-f8d5a69b37f0" />
+Mistfall is a macOS screen saver and standalone app that draws slowly changing patterns of light out of tens of thousands of glowing dots.  It's completely free, open-source and is innocuous, but if you don't believe me, download the code and build it yourself with Claude or Codex, and Xcode.  It is made in honor of a screensaver (Snoqualmie by Syntrillium) which fascinated me enough with the beauty of its renders that I wanted to understand imaging and computers more and more, which led me down the rabbit hole of digital design.
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/20533f64-3a51-4768-8d24-f8d5a69b37f0" />
 
 ## Download
 
-Signed, notarized builds are on the [Releases page](https://github.com/dsomar/Mistfall/releases/latest):
+It is available as a screensaver AND a standalone Mac app (so you can tinker with it w/o having to be in screen-saving mode). You can download signed, notarized builds  [on the Releases page](https://github.com/dsomar/Mistfall/releases/latest):
 
 - `Mistfall-App.zip`: the standalone app. It can also install the screen saver from its menu.
 - `Mistfall-Screensaver.zip`: the screen saver on its own. Unzip it and double-click `Mistfall.saver`.
 
-## What is here
+## About the Code
 
 - `Mistfall/`: the engine and the standalone Mac app. `Engine.swift` runs the patterns; `Abstract`, `Cipherfall`, `Flow` and `Prism` hold individual pattern families; `GPU.swift` draws with Metal.
 - `Saver/`: the screen saver wrapper around the same engine.
